@@ -12,7 +12,6 @@ public class Quiz02 {
 		for(int n = 2; n <= 9; n++){
 			for(int b = 1; b <= 1; b++)
 				System.out.print(n + "x" + b + "=" + (n * b) + "  ");
-		2중 for문
 		*/
 		
 		/*
