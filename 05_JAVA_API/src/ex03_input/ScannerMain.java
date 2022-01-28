@@ -3,7 +3,7 @@ package ex03_input;
 import java.util.Scanner;
 
 public class ScannerMain {
-
+//test
 	public static void main(String[] args) {
 
 		// java.util 패키지에 저장된 Scanner 클래스
