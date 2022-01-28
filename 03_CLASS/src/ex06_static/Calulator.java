@@ -34,11 +34,11 @@ public class Calulator {
 		// res = res *2;
 		// res = res *2;
 		// res = res *2;
-		int res = 1;
+		int res = 1; // res에 1 적용 / 0으로 시작하면 제곱이라 곱해도 0임
 		
-		for (int i = 0; i < b; i++) 
-			res *= a;
-		System.out.println(a + "의 " + b + "제곱 =" + res);		
+		for (int i = 0; i < b; i++) // i 보다 b가 작아서 i++로 1씩 올려줌 b값은 3이라 i는 2까지밖에 안됨
+			res *= a; // res에 a값 곱하기
+		System.out.println(a + "의 " + b + "제곱 = " + res);		
 	}
 	public static void abs(int a) {
 		// a의 절대값

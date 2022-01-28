@@ -3,9 +3,9 @@ package ex03_constructor;
 public class Computer {
 
 	// 필드(field)
-	String maker;
-	String model;
-	int price;
+	String maker; // 제조사
+	String model; // 상품명
+	int price; // 가격
 	
 	
 	
@@ -35,7 +35,7 @@ public class Computer {
 		// 필드 앞에 this를 추가할 수 있다.
 		
 		this.maker = maker;
-		this.model = model;
+		this.model = model;  // -> 매개변수에서 필드로 전달
 		this.price = price;
 		
 		

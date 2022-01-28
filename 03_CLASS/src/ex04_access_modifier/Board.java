@@ -9,8 +9,8 @@ package ex04_access_modifier;
 //	  4) public	   : 누구나 접근할 수 있다.
 // 3. 일반적인 적용
 //	  1) 필드   : private
-//	  2) 메소드 : public
-//	  3) 생성자 : public
+//	  2) 생성자 : public
+//	  3) 메소드 : public
 
 
 public class Board {

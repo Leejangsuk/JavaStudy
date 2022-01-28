@@ -17,7 +17,7 @@ public class Ex05_continue {
 		
 		// continue는 없어도 된다.
 		for(int n = 1; n <= 100; n++) {
-			if(n % 3 != 0)
+			if(n % 3 != 0) // != 를 넣어서 부정문으로 바꿈
 			System.out.println(n);
 		
 		}

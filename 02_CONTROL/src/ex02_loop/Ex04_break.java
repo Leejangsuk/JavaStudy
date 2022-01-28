@@ -31,11 +31,11 @@ public class Ex04_break {
 		// 새로운 코드를 추가해서 5x5=25
 		int dan, n;
 		
-		outer : for(dan = 2; dan <=9; dan++) {
-			for(n = 1; n <=9; n++) {
+		outer : for(dan = 2; dan <=9; dan++) { // 2부터 9까지 출력
+			for(n = 1; n <=9; n++) { //1부터 9까지 출력
 				System.out.println(dan + "x" + n + "=" + dan * n);
-				if(dan == 5 && n == 5) // dan도 5일때 n도 5일때 출력
-					break outer;							
+				if(dan == 5 && n == 5) // dan도 5, n도 5일때 && 양쪽다 true이므로 출력
+					break outer;						
 			}
 		}
 				
