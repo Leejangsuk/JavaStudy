@@ -8,7 +8,7 @@ public class MathRandom {
 		
 		// 1. 확률 처리
 		// 10% 확률로 "대박", 나머지 확률로 "쪽박" 출력
-		if(Math.random() < 0.1)
+		if(Math.random() < 0.5)
 			System.out.println("대박");
 		else
 			System.out.println("쪽박");
@@ -23,7 +23,7 @@ public class MathRandom {
 		
 		// 문제. 주사위 3개 던지기
 		
-		for(int i = 0; i < 3; i++) {
+		for(int i = 0; i < 6; i++) {
 			System.out.println((i + 1) + "번째 주사위 : " + ((int)(Math.random() * 6 ) + 1));
 		}
 		// 문제. 6자리 인증번호 만들기
@@ -31,6 +31,6 @@ public class MathRandom {
 			for(int i = 0; i < 6; i++)
 				code += (int)(Math.random() * 10);
 			
-			System.out.println("전송된 인증번호는 " + code + "입니다.");
+			System.out.println("전송된 인증번호는 " + code + "입니다."); 
 			}
 		}		
