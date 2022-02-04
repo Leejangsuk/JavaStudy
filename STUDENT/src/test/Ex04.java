@@ -32,7 +32,7 @@ public class Ex04 {
 				return; // 프로그램 종료
 			}
 			
-			int arr[] = new int[n]; // n개의 정수 배열 생성
+			int arr[] = new int[n]; // n개의 정수 x배열 생성
 			
 			for (int i = 0; i < arr.length; i++) {
 				int rand = (int) (Math.random() * 100 + 1); // 1~100 범위의 난수
