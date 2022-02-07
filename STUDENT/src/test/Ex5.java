@@ -1,6 +1,6 @@
 package test;
 
-public class ex05 {
+public class Ex5 {
 
 	public static void main(String[] args) {
 
