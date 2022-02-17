@@ -115,7 +115,7 @@ public class Main {
 	
 	
 	public static void main(String[] args) {
-		m4();
+		m1();
 	}
 
 }

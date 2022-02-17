@@ -141,7 +141,7 @@ public class JSONMain {
 	}
 	
 	public static void main(String[] args) {
-		m2();
+		m1();
 	}
 
 }
