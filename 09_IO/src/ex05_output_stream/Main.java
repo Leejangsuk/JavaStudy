@@ -91,9 +91,9 @@ public class Main {
 			
 			DataOutputStream dos = new DataOutputStream(new FileOutputStream("C:\\storage\\b4.dat"));
 			
-			int age = 45;
-			double height = 177.5;
-			String name = "민경태";
+			int age = 24;
+			double height = 168.5;
+			String name = "이장석";
 			
 			dos.writeInt(age);
 			dos.writeDouble(height);
